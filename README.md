@@ -1,10 +1,16 @@
 # ubuntu
 
+# version 
+`lsb_release -a`
+`cat /etc/*-release`
+`cat /etc/issue`
+
+
 `sudo apt-get update`
- 
+
 `sudo apt-get upgrade`
 
-`sudo apt install build-essential dkms linux-headers-$(uname -r)`
+`sudo apt install build-essential dkms linux-headers-$(uname -r)`*
 
 # kernel antuguos eliminar
 
@@ -23,3 +29,8 @@
 `dpkg --get-selections`
 
 `dpkg --get-selections | grep php`
+
+# version os
+`lsb_release -a`
+`cat /etc/*-release`
+`cat /etc/issue`
