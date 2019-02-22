@@ -19,5 +19,7 @@
 
 
 # listado de paquetes
+
 `dpkg --get-selections`
+
 `dpkg --get-selections | grep php`
