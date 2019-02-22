@@ -1,8 +1,11 @@
 # ubuntu
 
 # version 
+
 `lsb_release -a`
+
 `cat /etc/*-release`
+
 `cat /etc/issue`
 
 `sudo apt-get update`
